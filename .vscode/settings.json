@@ -1,0 +1,5 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "./rust/my_macros/Cargo.toml"
+  ]
+}

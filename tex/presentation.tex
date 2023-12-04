@@ -1,0 +1,89 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+
+\title{Advanced Features of Rust Programming}
+\author{Paweł Nowak}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Zero Cost Abstraction}
+\begin{frame}{Zero Cost Abstraction}
+\begin{itemize}
+  \item Derived from C++ concept.
+  \item Achieved through efficient iterators and other abstractions.
+  \item Enables high performance without sacrificing safety or expressiveness.
+\end{itemize}
+\end{frame}
+
+\section{Ownership Model}
+\begin{frame}{Ownership Model}
+\begin{itemize}
+  \item Fundamental to Rust’s memory safety guarantees.
+  \item Ownership rules:
+    \begin{itemize}
+      \item Each value in Rust has a single owner.
+      \item Only one owner at a time.
+      \item When the owner goes out of scope, the value is dropped.
+    \end{itemize}
+  \item Prevents common errors like dangling pointers and memory leaks.
+\end{itemize}
+\end{frame}
+
+\section{Algebraic Data Types}
+\begin{frame}{Algebraic Data Types}
+\begin{itemize}
+  \item Inspired by functional languages like Haskell.
+  \item Combines different types in a single coherent unit.
+  \item Commonly used with `enum` for defining custom data types.
+\end{itemize}
+\end{frame}
+
+\section{Polymorphism}
+\begin{frame}{Polymorphism}
+\begin{itemize}
+  \item Achieved in Rust through traits.
+  \item Traits allow for shared behavior across different types.
+  \item Similar to interfaces in other languages but more powerful.
+\end{itemize}
+\end{frame}
+
+\section{Async Programming}
+\begin{frame}{Async Programming}
+\begin{itemize}
+  \item Integral part of Rust for efficient IO operations.
+  \item Uses `async` and `await` syntax for easy-to-read asynchronous code.
+  \item Enables concurrent execution without the complexity of threads.
+\end{itemize}
+\end{frame}
+
+\section{Macros}
+\begin{frame}{Macros}
+\begin{itemize}
+  \item Macros in Rust are powerful and hygienic.
+  \item Allow for metaprogramming and code generation.
+  \item Hygienic nature ensures no unintended scope interference.
+\end{itemize}
+\end{frame}
+
+\section{Cargo}
+\begin{frame}{Cargo - The Rust Package Manager}
+\begin{itemize}
+  \item Cargo manages Rust projects, dependencies, and builds.
+  \item Inspired by Node.js's npm.
+  \item Simplifies project management and compilation process.
+\end{itemize}
+\end{frame}
+
+\section{Conclusion}
+\begin{frame}{Conclusion}
+\begin{itemize}
+  \item Rust provides advanced features for safe, concurrent, and practical programming.
+  \item Its unique approach to memory safety and management sets it apart.
+  \item Continuously evolving with a strong focus on developer needs.
+\end{itemize}
+\end{frame}
+
+\end{document}
